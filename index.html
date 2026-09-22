@@ -1,846 +1,211 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D & A Holdings Health Solutions LLC | Compassionate Mental Health Care</title>
-    <meta name="description" content="Compassionate, individualized, and evidence-informed mental health care for children and adolescents (ages 6&ndash;17) and adults (ages 18&ndash;67) in Waldorf, MD.">
+    <title>D & A Holdings Health Solutions LLC | Premium Mental Healthcare</title>
+    <meta name="description" content="D & A Holdings Health Solutions LLC provides compassionate, patient-centered behavioral healthcare, mental health services, and psychiatric rehabilitation in Waldorf, Maryland.">
     
-    <!-- Google Fonts -->
+    <!-- Premium Fonts: Playfair Display for headings, Inter for body -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     
-    <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="css/index2.css">
+    <link rel="stylesheet" href="css/index1.css">
 </head>
 <body>
 
-    <!-- Emergency & Crisis Disclaimer Alert Bar -->
-    <aside class="crisis-top-bar" aria-label="Crisis and Emergency Information">
-        <div class="crisis-top-container">
-            <span class="crisis-pill">CRISIS NOTICE</span>
-            <span>If you or someone else is experiencing an immediate emergency, call <a href="tel:911"><strong>911</strong></a> or go to the nearest emergency department.</span>
-            <span>For 24/7 crisis support, call or text <a href="tel:988"><strong>988</strong></a> (Suicide &amp; Crisis Lifeline).</span>
-        </div>
-    </aside>
-
-    <!-- Top Utility Bar -->
-    <div class="utility-bar" id="utilityBar">
-        <div class="container utility-container">
-            <div class="utility-left">
-                <span class="utility-dot"></span>
-                <span>Serving Children &amp; Adolescents (6&ndash;17) and Adults (18&ndash;67) &bull; Waldorf, MD</span>
-            </div>
-            <div class="utility-right">
-                <a href="tel:2409176203" class="utility-link" aria-label="Call D & A Holdings Health Solutions">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-                    <span>240-917-6203</span>
-                </a>
-                <span class="utility-divider">|</span>
-                <a href="mailto:info@dahhealthsolutions.com" class="utility-link" aria-label="Email D & A Holdings Health Solutions">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                        <polyline points="22,6 12,13 2,6"></polyline>
-                    </svg>
-                    <span>info@dahhealthsolutions.com</span>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <!-- Main Header -->
-    <header class="site-header" id="siteHeader">
-        <div class="container header-container">
-            <a href="index2.html" class="brand-logo" aria-label="D &amp; A Holdings Health Solutions LLC" style="flex-direction: row; align-items: center; gap: 12px;">
-                <img src="images/brand_icon.png" alt="D&amp;A Holdings Logo Icon" style="height: 50px; width: auto; object-fit: contain;">
+    <!-- Header -->
+    <header class="site-header" id="header">
+        <div class="header-container">
+            <a href="index.html" class="brand-logo" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="var(--clr-emerald)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="height: 48px; width: 48px; flex-shrink: 0;">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                    <path d="M12 8v8"/>
+                    <path d="M8 12h8"/>
+                </svg>
                 <div style="display: flex; flex-direction: column; justify-content: center;">
-                    <span class="brand-name" style="line-height: 1.1;">D &amp; A HOLDINGS</span>
-                    <span class="brand-sub">HEALTH SOLUTIONS LLC</span>
+                    <span style="font-family: var(--font-heading); font-weight: 700; color: var(--clr-emerald-dark); font-size: 1.5rem; line-height: 1.1;">D & A Holdings</span>
+                    <span style="font-family: var(--font-body); font-size: 0.75rem; color: var(--clr-emerald); text-transform: uppercase; letter-spacing: 1.5px; margin-top: 2px;">Health Solutions LLC</span>
                 </div>
             </a>
-
-            <!-- Desktop Navigation -->
-            <nav class="desktop-nav" aria-label="Main Navigation">
-                <a href="index2.html" class="nav-link active">Home</a>
-                
-                <!-- About Dropdown -->
-                <div class="nav-dropdown">
-                    <span class="nav-link nav-dropdown-toggle">
-                        About Us
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </span>
-                    <div class="dropdown-menu">
-                        <a href="about.html" class="dropdown-item">About Our Practice</a>
-                        <a href="why-choose-us.html" class="dropdown-item">Why Choose Us</a>
-                    </div>
-                </div>
-
-                <!-- Services Dropdown -->
-                <div class="nav-dropdown">
-                    <span class="nav-link nav-dropdown-toggle">
-                        Services
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </span>
-                    <div class="dropdown-menu">
-                        <a href="services.html" class="dropdown-item">All Services Overview</a>
-                        <div class="dropdown-divider"></div>
-                        <a href="substance-abuse.html" class="dropdown-item">Substance Abuse Services</a>
-                        <a href="child-adolescent.html" class="dropdown-item">Child &amp; Adolescent Care (6&ndash;17)</a>
-                        <a href="adult-mental-health.html" class="dropdown-item">Adult Mental Health (18&ndash;67)</a>
-                        <a href="telehealth.html" class="dropdown-item">Telehealth Services</a>
-                    </div>
-                </div>
-
-                <a href="conditions.html" class="nav-link">Conditions</a>
-                <a href="new-patients.html" class="nav-link">New Patients</a>
-                <a href="faq.html" class="nav-link">FAQ</a>
-                <a href="contact.html" class="nav-link">Contact</a>
-            </nav>
-
-            <div class="header-actions">
-                <a href="book-appointment.html" class="btn btn-consultation">Book Appointment</a>
-                <!-- Mobile Hamburger Toggle -->
-                <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </button>
-            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="new-patients.html" class="nav-link">New Patients</a></li>
+                <li><a href="faq.html" class="nav-link">FAQ</a></li>
+                <li><a href="contact.html" class="btn btn-primary" style="padding: 0.75rem 1.5rem; font-size: 0.9rem;">Book Appointment</a></li>
+            </ul>
         </div>
     </header>
 
-    <!-- Mobile Drawer Overlay -->
-    <div class="mobile-drawer" id="mobileDrawer">
-        <div class="drawer-header">
-            <a href="index2.html" class="brand-logo" aria-label="D &amp; A Holdings Health Solutions LLC">
-                <img src="images/brand_logo.png" alt="D &amp; A Holdings Health Solutions LLC" style="height: 42px; width: auto; object-fit: contain; display: block;">
-            </a>
-            <button class="drawer-close" id="drawerClose" aria-label="Close Menu">&times;</button>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-shape"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="section-subtitle">Compassionate Mental Healthcare</span>
+                <h1>Supporting Minds.<br><span>Strengthening Families.</span><br>Improving Lives.</h1>
+                <p>Welcome to D & A Holdings Health Solutions LLC, where compassionate care, respect, and individualized support are at the heart of what we do.</p>
+                <div class="hero-actions">
+                    <a href="book-appointment.html" class="btn btn-primary">Schedule a Consultation</a>
+                    <a href="services.html" class="btn btn-outline">Explore Our Services</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="hero-badge">
+                    <div class="hero-badge-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    </div>
+                    <div>
+                        <div style="font-weight: 600; color: var(--clr-emerald-dark);">Evidence-Informed</div>
+                        <div style="font-size: 0.85rem; color: var(--clr-text-muted);">Patient-Centered Care</div>
+                    </div>
+                </div>
+                <img src="images/hero_slide1.jpg" alt="Compassionate therapy session" class="hero-image" onerror="this.src='https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'">
+            </div>
         </div>
-        <nav class="drawer-nav">
-            <a href="index2.html" class="drawer-link">Home</a>
-            <a href="about.html" class="drawer-link">About Us</a>
-            <a href="why-choose-us.html" class="drawer-link">Why Choose Us</a>
-            <a href="services.html" class="drawer-link">Our Services</a>
-            <a href="substance-abuse.html" class="drawer-link">Substance Abuse Services</a>
-            <a href="child-adolescent.html" class="drawer-link">Child &amp; Adolescent Mental Health</a>
-            <a href="adult-mental-health.html" class="drawer-link">Adult Mental Health</a>
-            <a href="conditions.html" class="drawer-link">Conditions We Treat</a>
-            <a href="new-patients.html" class="drawer-link">New Patients Guide</a>
-            <a href="telehealth.html" class="drawer-link">Telehealth Services</a>
-            <a href="faq.html" class="drawer-link">Frequently Asked Questions</a>
-            <a href="contact.html" class="drawer-link">Contact Us</a>
-        </nav>
-        <div class="drawer-footer">
-            <a href="book-appointment.html" class="btn btn-consultation btn-full">Book Appointment</a>
-            <a href="tel:2409176203" class="drawer-phone"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: text-bottom; margin-right: 4px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg> 240-917-6203</a>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Comprehensive Care</span>
+                <h2 class="section-title">Our Psychiatric Services</h2>
+                <p style="color: var(--clr-text-muted); font-size: 1.1rem;">We provide behavioral and mental health services for children and adolescents ages 6–17 and adults ages 18–67.</p>
+            </div>
+            
+            <div class="services-grid">
+                <a href="psychiatric-evaluations.html" class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                    </div>
+                    <h3>Psychiatric Evaluations</h3>
+                    <p>Comprehensive evaluations to better understand each client's mental health concerns, symptoms, and treatment needs.</p>
+                </a>
+                
+                <a href="medication-management.html" class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 20.5 19 12a2.828 2.828 0 0 0-4-4l-8.5 8.5a2 2 0 0 0-.5 1.5l1 4a2 2 0 0 0 1.5 1.5z"></path><path d="m15 7 2 2"></path><path d="M2 22h4"></path></svg>
+                    </div>
+                    <h3>Medication Management</h3>
+                    <p>Thoughtful and individualized medication prescribing, ongoing monitoring, and comprehensive patient education.</p>
+                </a>
+                
+                <a href="telehealth.html" class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect><polyline points="17 2 12 7 7 2"></polyline></svg>
+                    </div>
+                    <h3>Telehealth Services</h3>
+                    <p>Convenient access to mental health services from a private location when clinically appropriate.</p>
+                </a>
+            </div>
         </div>
-    </div>
+    </section>
 
-    <main id="mainContent">
-
-        <!-- Hero Section (Short Homepage Version) -->
-        <section class="hero-section" id="home">
-            <div class="container hero-container">
-                <div class="hero-text-col reveal">
-                    <div class="eyebrow-badge">
-                        <span class="badge-dot"></span>
-                        <span>COMPASSIONATE MENTAL HEALTH CARE &bull; AGES 6&ndash;17 &amp; 18&ndash;67</span>
-                    </div>
-                    <h1 class="hero-heading">
-                        SUPPORTING MINDS.<br>
-                        STRENGTHENING FAMILIES.<br>
-                        IMPROVING LIVES.
-                    </h1>
-                    <p class="hero-description">
-                        Welcome to D &amp; A Holdings Health Solutions LLC, where we provide individualized behavioral and mental health services in a compassionate, respectful, and supportive environment.
-                    </p>
-                    <div class="hero-cta-group">
-                        <a href="book-appointment.html" class="btn btn-primary">Request an Appointment</a>
-                        <a href="services.html" class="btn btn-outline-navy">Explore Our Services</a>
-                    </div>
-                    <div class="hero-trust-micro">
-                        <div class="trust-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                        <span>Compassionate Care. Individualized Support. A Healthier Tomorrow.</span>
-                    </div>
-                </div>
-
-                <div class="hero-visual-col reveal delay-1">
-                    <div class="hero-image-wrapper">
-                        <img src="images/hero_slide1.jpg" alt="Compassionate healthcare provider at D &amp; A Holdings" class="hero-main-img">
-                    </div>
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container about-grid">
+            <div class="about-image">
+                <img src="images/about_doctor.jpg" alt="Professional healthcare environment" onerror="this.src='https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'">
+            </div>
+            <div class="about-content">
+                <span class="section-subtitle" style="color: var(--clr-sand-light);">Who We Are</span>
+                <h2 class="section-title">Individualized Care Built on Trust & Dignity</h2>
+                <p>We recognize that every person's experience is unique. For this reason, our approach begins with listening. We take the time to understand each client's concerns, symptoms, strengths, and personal circumstances before developing an individualized plan of care.</p>
+                <p>Our philosophy is centered on treating the whole person rather than focusing solely on a diagnosis.</p>
+                
+                <ul class="feature-list">
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        Compassionate and respectful care
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        Evidence-informed treatment plans
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        Collaboration with clients and families
+                    </li>
+                </ul>
+                
+                <div style="margin-top: 3rem;">
+                    <a href="about.html" class="btn btn-outline" style="border-color: var(--clr-ivory); color: var(--clr-ivory);">Read Our Mission</a>
                 </div>
             </div>
-        </section>
-
-        <!-- Trust Bar (4 Minimalist Core Pillars) -->
-        <section class="trust-bar-section">
-            <div class="container trust-container">
-                <div class="trust-grid">
-                    <!-- Pillar 1 -->
-                    <div class="trust-item reveal">
-                        <div class="trust-icon-box">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="7" r="4"></circle><path d="M5.5 21v-2a6.5 6.5 0 0 1 13 0v2"></path></svg>
-                        </div>
-                        <div class="trust-info">
-                            <h3>INDIVIDUALIZED CARE</h3>
-                            <p>Tailored treatment built around your unique needs and goals.</p>
-                        </div>
-                    </div>
-
-                    <!-- Pillar 2 -->
-                    <div class="trust-item reveal delay-1">
-                        <div class="trust-icon-box">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-                        </div>
-                        <div class="trust-info">
-                            <h3>ACROSS THE LIFESPAN</h3>
-                            <p>Specialized care for youth ages 6&ndash;17 and adults ages 18&ndash;67.</p>
-                        </div>
-                    </div>
-
-                    <!-- Pillar 3 -->
-                    <div class="trust-item reveal delay-2">
-                        <div class="trust-icon-box">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-                        </div>
-                        <div class="trust-info">
-                            <h3>EVIDENCE-INFORMED</h3>
-                            <p>Thorough evaluations, assessments, and medication management.</p>
-                        </div>
-                    </div>
-
-                    <!-- Pillar 4 -->
-                    <div class="trust-item reveal delay-3">
-                        <div class="trust-icon-box">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-                        </div>
-                        <div class="trust-info">
-                            <h3>COMPASSIONATE &amp; SAFE</h3>
-                            <p>A welcoming, respectful, and confidential healing environment.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Philosophy / Editorial Introduction -->
-        <section class="philosophy-section section-padding bg-ivory" id="about-intro">
-            <div class="container">
-                <div class="philosophy-grid">
-                    <div class="philosophy-left reveal">
-                        <span class="section-eyebrow text-sage">WELCOME TO D &amp; A HOLDINGS</span>
-                        <h2 class="editorial-heading">Treating the whole person, not solely a diagnosis.</h2>
-                    </div>
-                    <div class="philosophy-right reveal delay-1">
-                        <div class="gold-accent-bar"></div>
-                        <p class="lead-text">
-                            At D &amp; A Holdings Health Solutions LLC, compassionate care, respect, and individualized support are at the heart of what we do.
-                        </p>
-                        <p class="secondary-text">
-                            We understand that seeking support for your mental and emotional well-being is an important step. Our goal is to provide a welcoming, confidential, and supportive environment where every individual feels heard, respected, and valued. We partner with clients to overcome challenges, improve emotional wellness, and work toward meaningful, lasting change.
-                        </p>
-                        <a href="about.html" class="editorial-link">
-                            <span>Read More About Our Mission &amp; Approach</span>
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Services Overview Grid (Official 6 Core Services) -->
-        <section class="services-section section-padding bg-white" id="services-overview">
-            <div class="container">
-                <div class="section-header-center reveal">
-                    <span class="section-eyebrow text-gold">COMPREHENSIVE SERVICES</span>
-                    <h2 class="section-heading">Personalized psychiatric and behavioral care.</h2>
-                    <p class="section-subtext">
-                        We provide psychiatric evaluations, medication management, ongoing psychiatric monitoring, education, and individualized treatment planning designed around your clinical needs.
-                    </p>
-                </div>
-
-                <div class="services-grid">
-                    <!-- Service 1 -->
-                    <div class="service-block reveal">
-                        <div class="service-img-wrap">
-                            <img src="images/service_mental.jpg" alt="Comprehensive Psychiatric Evaluations" class="service-img">
-                            <span class="service-tag">01 &bull; Diagnostic Care</span>
-                        </div>
-                        <div class="service-body">
-                            <h3 class="service-title">PSYCHIATRIC EVALUATIONS</h3>
-                            <p class="service-desc">Comprehensive evaluations to understand mental health concerns, history, functioning, and treatment needs.</p>
-                            <a href="services.html#evaluations" class="service-cta">
-                                <span>Learn More</span>
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Service 2 -->
-                    <div class="service-block reveal delay-1">
-                        <div class="service-img-wrap">
-                            <img src="images/service_substance.jpg" alt="Medication Management" class="service-img">
-                            <span class="service-tag">02 &bull; Treatment</span>
-                        </div>
-                        <div class="service-body">
-                            <h3 class="service-title">MEDICATION MANAGEMENT</h3>
-                            <p class="service-desc">Thoughtful psychiatric prescribing, monitoring effectiveness, education, and ongoing follow-up care.</p>
-                            <a href="services.html#medication-management" class="service-cta">
-                                <span>Learn More</span>
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Service 3 -->
-                    <div class="service-block reveal delay-2">
-                        <div class="service-img-wrap">
-                            <img src="images/conditions_center.jpg" alt="Mental Health Assessments" class="service-img">
-                            <span class="service-tag">03 &bull; Assessment</span>
-                        </div>
-                        <div class="service-body">
-                            <h3 class="service-title">MENTAL HEALTH ASSESSMENTS</h3>
-                            <p class="service-desc">Identifying emotional, behavioral, and psychiatric concerns affecting relationships, work, and daily life.</p>
-                            <a href="services.html#assessments" class="service-cta">
-                                <span>Learn More</span>
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Service 4 -->
-                    <div class="service-block reveal">
-                        <div class="service-img-wrap">
-                            <img src="images/about_doctor_premium.jpg" alt="Individualized Treatment Planning" class="service-img">
-                            <span class="service-tag">04 &bull; Personalized Plans</span>
-                        </div>
-                        <div class="service-body">
-                            <h3 class="service-title">TREATMENT PLANNING</h3>
-                            <p class="service-desc">Custom plans structured around presenting concerns, strengths, and goals, modified as you progress.</p>
-                            <a href="services.html#treatment-planning" class="service-cta">
-                                <span>Learn More</span>
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Service 5 -->
-                    <div class="service-block reveal delay-1">
-                        <div class="service-img-wrap">
-                            <img src="images/legacy_tree.jpg" alt="Patient Education and Support" class="service-img">
-                            <span class="service-tag">05 &bull; Education</span>
-                        </div>
-                        <div class="service-body">
-                            <h3 class="service-title">EDUCATION &amp; SUPPORT</h3>
-                            <p class="service-desc">Empowering clients and families with insights into diagnoses, coping strategies, and wellness routines.</p>
-                            <a href="services.html#education" class="service-cta">
-                                <span>Learn More</span>
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Service 6 -->
-                    <div class="service-block reveal delay-2">
-                        <div class="service-img-wrap">
-                            <img src="images/condition_anxiety.jpg" alt="Telehealth Virtual Care" class="service-img">
-                            <span class="service-tag">06 &bull; Virtual Care</span>
-                        </div>
-                        <div class="service-body">
-                            <h3 class="service-title">TELEHEALTH SERVICES</h3>
-                            <p class="service-desc">Convenient, secure virtual psychiatric evaluations and follow-ups from the comfort and privacy of home.</p>
-                            <a href="telehealth.html" class="service-cta">
-                                <span>Learn More</span>
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div style="text-align: center; margin-top: 3.5rem;">
-                    <a href="services.html" class="btn btn-primary">View Full Services Directory</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Two Specialized Lifespan Care Pillars (Child & Adolescent vs Adult) -->
-        <section class="featured-care-section section-padding bg-ivory" id="lifespan-care">
-            <div class="container">
-                <div class="section-header-center reveal">
-                    <span class="section-eyebrow text-sage">CARE ACROSS THE LIFESPAN</span>
-                    <h2 class="section-heading">Tailored care for every developmental stage.</h2>
-                    <p class="section-subtext">
-                        We serve children and adolescents between ages 6 and 17, and adults between ages 18 and 67, honoring their distinct developmental and emotional needs.
-                    </p>
-                </div>
-
-                <div class="featured-care-grid" style="margin-bottom: 4rem;">
-                    <!-- Column 1: Child & Adolescent -->
-                    <div class="featured-care-text reveal">
-                        <span class="section-eyebrow text-gold">AGES 6&ndash;17</span>
-                        <h3 class="section-heading" style="font-size: 2.1rem; margin-bottom: 1rem;">Child &amp; Adolescent Mental Health</h3>
-                        <p class="featured-lead-desc">
-                            Children and adolescents may experience emotional and behavioral challenges that interfere with their development, education, friendships, and family life. We emphasize collaborative care partnering closely with parents and guardians.
-                        </p>
-
-                        <div class="care-principles-list">
-                            <div class="principle-item">
-                                <div class="principle-icon">
-                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
-                                </div>
-                                <div class="principle-content">
-                                    <h4>CONDITIONS EVALUATED</h4>
-                                    <p>ADHD, Anxiety, Depression, OCD, ODD, Conduct Disorder, DMDD, and emotional regulation challenges.</p>
-                                </div>
-                            </div>
-
-                            <div class="principle-item">
-                                <div class="principle-icon">
-                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle></svg>
-                                </div>
-                                <div class="principle-content">
-                                    <h4>FAMILY-CENTERED COLLABORATION</h4>
-                                    <p>Partnering with parents, guardians, schools, and pediatricians to support healthier growth and family life.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div style="margin-top: 2rem;">
-                            <a href="child-adolescent.html" class="btn btn-primary">Child &amp; Adolescent Services</a>
-                        </div>
-                    </div>
-
-                    <div class="featured-care-visual reveal delay-1">
-                        <div class="care-visual-backdrop"></div>
-                        <div class="care-image-frame">
-                            <img src="images/service_child.jpg" alt="Child and adolescent care session" class="care-main-img">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Column 2: Adult Mental Health -->
-                <div class="featured-care-grid" style="align-items: center;">
-                    <div class="featured-care-visual reveal">
-                        <div class="care-visual-backdrop" style="left: 20px; right: -20px;"></div>
-                        <div class="care-image-frame">
-                            <img src="images/service_adult.jpg" alt="Adult mental health consultation" class="care-main-img">
-                        </div>
-                    </div>
-
-                    <div class="featured-care-text reveal delay-1">
-                        <span class="section-eyebrow text-gold">AGES 18&ndash;67</span>
-                        <h3 class="section-heading" style="font-size: 2.1rem; margin-bottom: 1rem;">Adult Mental Health Services</h3>
-                        <p class="featured-lead-desc">
-                            Mental health challenges can affect relationships, employment, physical health, independence, and overall quality of life. We focus on understanding your symptoms and how they impact daily functioning.
-                        </p>
-
-                        <div class="care-principles-list">
-                            <div class="principle-item">
-                                <div class="principle-icon">
-                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
-                                </div>
-                                <div class="principle-content">
-                                    <h4>CONDITIONS EVALUATED</h4>
-                                    <p>Depression, Anxiety Disorders, ADHD, Bipolar &amp; Related Disorders, Borderline Personality, and Schizophrenia &amp; Psychotic Disorders.</p>
-                                </div>
-                            </div>
-
-                            <div class="principle-item">
-                                <div class="principle-icon">
-                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-                                </div>
-                                <div class="principle-content">
-                                    <h4>GOAL-ORIENTED WELLNESS</h4>
-                                    <p>Helping individuals achieve symptom stability, improve coping skills, and enhance everyday functioning.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div style="margin-top: 2rem;">
-                            <a href="adult-mental-health.html" class="btn btn-primary">Adult Mental Health Services</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Why Choose Us Showcase (The 7 Pillars) -->
-        <section class="family-section section-padding bg-white" id="why-choose-us">
-            <div class="container">
-                <div class="family-grid">
-                    <div class="family-text-col reveal">
-                        <span class="section-eyebrow text-sage">WHY CHOOSE D &amp; A HOLDINGS</span>
-                        <h2 class="section-heading">
-                            Care centered on the whole person.<br>Built on trust &amp; dignity.
-                        </h2>
-                        <p class="family-lead-desc">
-                            Finding the right mental health provider is an important part of your journey toward emotional wellness. At D &amp; A Holdings Health Solutions LLC, we strive to provide a welcoming, respectful, and supportive environment where children, adolescents, adults, and families feel heard and valued.
-                        </p>
-                        <div class="family-checklist">
-                            <div class="check-item">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                                <span><strong>Individualized Care:</strong> Tailored to your history, strengths, and goals.</span>
-                            </div>
-                            <div class="check-item">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                                <span><strong>Lifespan Expertise:</strong> Serving ages 6&ndash;17 and 18&ndash;67.</span>
-                            </div>
-                            <div class="check-item">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                                <span><strong>Collaborative Treatment:</strong> Active involvement with you and your care team.</span>
-                            </div>
-                            <div class="check-item">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                                <span><strong>Ongoing Support:</strong> Continuous evaluation, monitoring, and guidance.</span>
-                            </div>
-                        </div>
-                        <div class="family-cta-wrap">
-                            <a href="why-choose-us.html" class="btn btn-primary">Discover Why Patients Choose Us</a>
-                        </div>
-                    </div>
-
-                    <div class="family-visual-col reveal delay-1">
-                        <div class="family-image-wrapper">
-                            <img src="images/why_choose_main.jpg" alt="Supportive family consultation at D&amp;A Holdings" class="family-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Conditions We Evaluate and Treat (Preview Grid) -->
-        <section class="section-padding bg-ivory" id="conditions-preview">
-            <div class="container">
-                <div class="section-header-center reveal">
-                    <span class="section-eyebrow text-gold">CONDITIONS WE TREAT</span>
-                    <h2 class="section-heading">Support for emotional &amp; psychiatric difficulties.</h2>
-                    <p class="section-subtext">
-                        We evaluate and treat a broad range of psychiatric, mood, and behavioral concerns with evidence-informed approaches.
-                    </p>
-                </div>
-
-                <div class="checklist-grid checklist-grid-3col reveal" style="margin-top: 2rem;">
-                    <div class="checklist-card">
-                        <div class="check-icon-circle">&#10003;</div>
-                        <div>
-                            <h4>ADHD (Youth &amp; Adult)</h4>
-                            <p>Attention, concentration, executive function, and impulse management.</p>
-                        </div>
-                    </div>
-
-                    <div class="checklist-card">
-                        <div class="check-icon-circle">&#10003;</div>
-                        <div>
-                            <h4>Anxiety Disorders</h4>
-                            <p>Excessive worry, nervousness, restlessness, and physical tension.</p>
-                        </div>
-                    </div>
-
-                    <div class="checklist-card">
-                        <div class="check-icon-circle">&#10003;</div>
-                        <div>
-                            <h4>Depressive Disorders</h4>
-                            <p>Low mood, motivation, energy changes, and sleep disruptions.</p>
-                        </div>
-                    </div>
-
-                    <div class="checklist-card">
-                        <div class="check-icon-circle">&#10003;</div>
-                        <div>
-                            <h4>Bipolar &amp; Related Disorders</h4>
-                            <p>Shifts in mood, energy, activity, and emotional regulation.</p>
-                        </div>
-                    </div>
-
-                    <div class="checklist-card">
-                        <div class="check-icon-circle">&#10003;</div>
-                        <div>
-                            <h4>Childhood Behavioral Disorders</h4>
-                            <p>ODD, Conduct Disorder, and Disruptive Mood Dysregulation (DMDD).</p>
-                        </div>
-                    </div>
-
-                    <div class="checklist-card">
-                        <div class="check-icon-circle">&#10003;</div>
-                        <div>
-                            <h4>Schizophrenia &amp; Psychotic Disorders</h4>
-                            <p>Careful assessment, medication monitoring, and relapse prevention.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div style="text-align: center; margin-top: 3rem;">
-                    <a href="conditions.html" class="btn btn-outline-navy">View All Conditions &amp; Clinical Details</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- New Patient & Telehealth Spotlight Cards -->
-        <section class="section-padding bg-white" id="patient-resources">
-            <div class="container">
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 2.5rem;">
-                    <!-- Card 1: New Patient Information -->
-                    <div class="resource-card reveal" style="padding: 3rem 2.5rem;">
-                        <span class="resource-meta">FOR NEW CLIENTS</span>
-                        <h3 class="resource-title" style="font-size: 1.6rem;">Your First Appointment</h3>
-                        <p class="resource-desc">
-                            Your initial psychiatric evaluation gives your provider an opportunity to learn about your concerns, medical and psychiatric history, and recommend an individualized plan of care.
-                        </p>
-                        <div style="margin-bottom: 1.8rem;">
-                            <ul style="font-size: 0.92rem; color: var(--clr-text-muted); line-height: 1.8;">
-                                <li>&bull; What your provider reviews during assessment</li>
-                                <li>&bull; 9-point checklist of records to have ready</li>
-                                <li>&bull; Important details for minor patients</li>
-                            </ul>
-                        </div>
-                        <a href="new-patients.html" class="btn btn-primary" style="align-self: flex-start;">New Patient Guide &amp; Checklist</a>
-                    </div>
-
-                    <!-- Card 2: Telehealth Services -->
-                    <div class="resource-card reveal delay-1" style="padding: 3rem 2.5rem;">
-                        <span class="resource-meta">ACCESSIBLE CARE</span>
-                        <h3 class="resource-title" style="font-size: 1.6rem;">Telehealth Appointments</h3>
-                        <p class="resource-desc">
-                            When clinically appropriate, telehealth allows eligible clients to attend psychiatric evaluations and follow-ups securely from the privacy and comfort of home.
-                        </p>
-                        <div style="margin-bottom: 1.8rem;">
-                            <ul style="font-size: 0.92rem; color: var(--clr-text-muted); line-height: 1.8;">
-                                <li>&bull; Private & Secure Telehealth Care</li>
-                                <li>&bull; Convenient access with reliable connection</li>
-                                <li>&bull; Ongoing medication monitoring follow-ups</li>
-                            </ul>
-                        </div>
-                        <a href="telehealth.html" class="btn btn-outline-navy" style="align-self: flex-start;">Explore Telehealth Care</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Frequently Asked Questions (Homepage Preview Accordion) -->
-        <section class="faq-section section-padding bg-ivory" id="faq">
-            <div class="container faq-container">
-                <div class="section-header-center reveal">
-                    <span class="section-eyebrow text-gold">QUESTIONS &amp; ANSWERS</span>
-                    <h2 class="section-heading">Frequently asked questions.</h2>
-                    <p class="section-subtext">
-                        Clear, straightforward answers about our mental health services, evaluations, and medication management policies.
-                    </p>
-                </div>
-
-                <div class="faq-accordion reveal">
-                    <!-- FAQ 1 -->
-                    <div class="faq-item active">
-                        <button class="faq-trigger" aria-expanded="true">
-                            <span>What ages do you serve?</span>
-                            <span class="faq-icon">&minus;</span>
-                        </button>
-                        <div class="faq-content">
-                            <p>D &amp; A Holdings Health Solutions LLC provides mental health services to children and adolescents ages 6&ndash;17 and adults ages 18&ndash;67.</p>
-                        </div>
-                    </div>
-
-                    <!-- FAQ 2 -->
-                    <div class="faq-item">
-                        <button class="faq-trigger" aria-expanded="false">
-                            <span>What mental health conditions do you treat?</span>
-                            <span class="faq-icon">+</span>
-                        </button>
-                        <div class="faq-content">
-                            <p>We evaluate and treat a variety of psychiatric and behavioral conditions, including ADHD, depression, anxiety disorders, ODD, conduct disorder, DMDD, bipolar and related disorders, borderline personality disorder, schizophrenia, other psychotic disorders, and other mood or behavioral concerns within the scope of our services.</p>
-                        </div>
-                    </div>
-
-                    <!-- FAQ 3 -->
-                    <div class="faq-item">
-                        <button class="faq-trigger" aria-expanded="false">
-                            <span>Do you prescribe psychiatric medications?</span>
-                            <span class="faq-icon">+</span>
-                        </button>
-                        <div class="faq-content">
-                            <p>When clinically appropriate, qualified psychiatric providers may prescribe medication and provide ongoing medication-management services.</p>
-                        </div>
-                    </div>
-
-                    <!-- FAQ 4 -->
-                    <div class="faq-item">
-                        <button class="faq-trigger" aria-expanded="false">
-                            <span>Will I automatically receive medication at my first appointment?</span>
-                            <span class="faq-icon">+</span>
-                        </button>
-                        <div class="faq-content">
-                            <p>No. Medication recommendations are based on the results of your psychiatric evaluation, clinical needs, medical considerations, and other relevant factors. An evaluation does not guarantee that we will prescribe a particular medication.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div style="text-align: center; margin-top: 2.5rem;">
-                    <a href="faq.html" class="editorial-link" style="justify-content: center;">
-                        <span>View All Frequently Asked Questions (8 Q&amp;As)</span>
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Deep Navy Call to Action Banner -->
-        <section class="cta-banner-section">
-            <div class="container">
-                <div class="cta-banner-card reveal">
-                    <span class="cta-badge">TAKE THE NEXT STEP</span>
-                    <h2 class="cta-heading">Supporting Minds. Strengthening Families. Improving Lives.</h2>
-                    <p class="cta-desc">
-                        If you or your child is experiencing emotional, behavioral, or mental health concerns, D &amp; A Holdings Health Solutions LLC is here to help. Contact our office to begin establishing care.
-                    </p>
-                    <div class="cta-btn-group">
-                        <a href="book-appointment.html" class="btn btn-gold">Request an Appointment</a>
-                        <a href="tel:2409176203" class="btn btn-outline-white">Call 240-917-6203</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section & Appointment Request -->
-        <section class="contact-section section-padding bg-ivory" id="contact">
-            <div class="container">
-                <div class="contact-grid">
-                    <!-- Left: Official Practice Info -->
-                    <div class="contact-info-col reveal">
-                        <span class="section-eyebrow text-gold">GET IN TOUCH</span>
-                        <h2 class="section-heading">We're here to support your journey.</h2>
-                        <p class="contact-intro">
-                            Contact our office today to begin establishing care. Our team will provide information regarding scheduling, required forms, insurance or payment information, and what to expect during your first appointment.
-                        </p>
-
-                        <!-- Emergency & Crisis Disclaimer Box -->
-                        <div class="emergency-disclaimer-card">
-                            <h3>
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"></polygon><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
-                                Emergency &amp; Crisis Disclaimer
-                            </h3>
-                            <p><strong>D &amp; A Holdings Health Solutions LLC is not an emergency or crisis-response service.</strong></p>
-                            <p>If you or someone else is experiencing an immediate medical or psychiatric emergency, is in immediate danger, or is at risk of harming themselves or another person, call <span class="emergency-hotline-highlight">911</span> or go to the nearest emergency department.</p>
-                            <p>For mental health, suicide, or substance-use crisis support in the United States, call or text <span class="emergency-hotline-highlight">988</span> to reach the 988 Suicide &amp; Crisis Lifeline.</p>
-                            <p style="font-size: 0.85rem; color: #718096;">* Do not use website contact forms, email, voicemail, or routine appointment requests for emergency situations.</p>
-                        </div>
-                    </div>
-
-                    <!-- Right: Contact Message Form -->
-                    <div class="contact-form-col reveal delay-1" id="appointment-form">
-                        <h3 class="form-title">Send Us a Message</h3>
-                        <p class="form-subtitle">Fill out this form and our administrative staff will contact you during office hours.</p>
-                            <div class="formaloo--root-container"
-     data-form-slug="T4hhE4l0"
-     data-transparent-background="false"
-     data-hide-title="false"
-     data-hide-cover-and-logo="false"
-     data-fill-container-width="true"
-     data-auto-height="false"
-     data-skip-welcome-page="false">
-</div>
-
-<script src="https://embed.formaloo.me/v1/main.js" defer></script>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    </main>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="site-footer">
         <div class="container">
-            <div class="footer-top-grid">
-                <!-- Brand Bio -->
-                <div class="footer-brand-col">
-                    <a href="index2.html" class="brand-logo footer-logo" style="flex-direction: row; align-items: center; gap: 14px; margin-bottom: 20px;">
-                        <div style="background-color: var(--clr-white); padding: 6px; border-radius: 10px; display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; flex-shrink: 0;">
-                            <img src="images/brand_icon.png" alt="D&amp;A Holdings Logo Icon" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-                        </div>
-                        <div style="display: flex; flex-direction: column; justify-content: center;">
-                            <span class="brand-name" style="line-height: 1.1;">D &amp; A HOLDINGS</span>
-                            <span class="brand-sub">HEALTH SOLUTIONS LLC</span>
-                        </div>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="var(--clr-emerald)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="height: 32px; width: 32px;">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            <path d="M12 8v8"/>
+                            <path d="M8 12h8"/>
+                        </svg>
+                        <span style="font-family: var(--font-heading); font-weight: 700; color: var(--clr-emerald-dark); font-size: 1.25rem;">D & A Holdings</span>
                     </a>
-                    <p class="footer-tagline">Supporting Minds. Strengthening Families. Improving Lives.</p>
-                    <p class="footer-bio">
-                        Providing compassionate, individualized, and evidence-informed behavioral and mental health services for children, adolescents, and adults.
-                    </p>
-                                        <p style="margin-top: 1rem; font-size: 0.92rem; color: var(--clr-taupe); line-height: 1.8;">
-                        <span style="display: block; margin-bottom: 6px;">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: text-bottom; margin-right: 6px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> 11315 Pembrooke Square, Suite 110, Waldorf, MD 20603
-                        </span>
-                        <span style="display: block; margin-bottom: 6px;">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: text-bottom; margin-right: 6px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg> <a href="tel:2409176203" style="color: inherit; text-decoration: none;">240-917-6203</a>
-                        </span>
-                        <span style="display: block;">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: text-bottom; margin-right: 6px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg> <a href="mailto:info@dahhealthsolutions.com" style="color: inherit; text-decoration: none;">info@dahhealthsolutions.com</a>
-                        </span>
-                    </p>
+                    <p>Providing compassionate, patient-centered behavioral healthcare and mental health services in Waldorf, Maryland.</p>
                 </div>
-
-                <!-- Column 1: Navigation -->
-                <div class="footer-nav-col">
-                    <h4>PAGES</h4>
-                    <ul>
-                        <li><a href="index2.html">Home</a></li>
+                
+                <div>
+                    <h4 class="footer-heading">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="psychiatric-evaluations.html">Psychiatric Evaluations</a></li>
+                        <li><a href="medication-management.html">Medication Management</a></li>
+                        <li><a href="mental-health-assessments.html">Mental Health Assessments</a></li>
+                        <li><a href="telehealth.html">Telehealth</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
                         <li><a href="about.html">About Us</a></li>
-                        <li><a href="why-choose-us.html">Why Choose Us</a></li>
-                        <li><a href="conditions.html">Conditions We Treat</a></li>
                         <li><a href="new-patients.html">New Patients</a></li>
-                        <li><a href="book-appointment.html">Book an Appointment</a></li>
-                        <li><a href="intake-form.html">Patient Intake Form</a></li>
                         <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
-
-                <!-- Column 2: Clinical Services -->
-                <div class="footer-nav-col">
-                    <h4>SERVICES</h4>
-                    <ul>
-                        <li><a href="services.html">All Services</a></li>
-                        <li><a href="substance-abuse.html">Substance Abuse Services</a></li>
-                        <li><a href="services.html#evaluations">Psychiatric Evaluations</a></li>
-                        <li><a href="services.html#medication-management">Medication Management</a></li>
-                        <li><a href="child-adolescent.html">Child &amp; Adolescent Care</a></li>
-                        <li><a href="adult-mental-health.html">Adult Mental Health</a></li>
-                        <li><a href="telehealth.html">Telehealth Services</a></li>
+                
+                <div>
+                    <h4 class="footer-heading">Contact Info</h4>
+                    <ul class="footer-links">
+                        <li style="display: flex; gap: 10px; align-items: flex-start; color: var(--clr-text-muted);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-top: 4px; color: var(--clr-emerald);"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            11315 Pembrooke Square, Suite 110<br>Waldorf, MD 20603
+                        </li>
+                        <li style="display: flex; gap: 10px; align-items: center; color: var(--clr-text-muted);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--clr-emerald);"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            240-917-6203
+                        </li>
                     </ul>
-                </div>
-
-                <!-- Column 3: Emergency Notice -->
-                <div class="footer-nav-col" style="grid-column: span 2;">
-                    <h4>CRISIS SUPPORT</h4>
-                    <p style="font-size: 0.9rem; color: var(--clr-taupe); line-height: 1.6; margin-bottom: 0.8rem;">
-                        If you or someone you know is in immediate danger or experiencing a crisis:
-                    </p>
-                    <p style="font-size: 0.95rem; color: #ffffff;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#ff4d4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: text-bottom; margin-right: 4px;"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg> Call <strong>911</strong> for emergencies<br>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="#ff4d4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: text-bottom; margin-right: 4px;"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg> Call or text <strong>988</strong> for Suicide &amp; Crisis Lifeline
-                    </p>
-                    <p style="font-size: 0.82rem; color: var(--clr-text-light); margin-top: 0.8rem;">
-                        Do not use website forms or email for emergencies.
-                    </p>
-                    <h4 style="margin-top: 1.5rem; margin-bottom: 0.8rem;">BUSINESS HOURS</h4>
-                    <p style="font-size: 0.95rem; color: #ffffff;">
-                        Monday &ndash; Friday: 9:00 AM &ndash; 7:00 PM<br>
-                        Saturday: 9:00 AM &ndash; 2:00 PM<br>
-                        Sunday: Closed
-                    </p>
                 </div>
             </div>
-
-            <div class="footer-bottom-bar">
-                <p>Copyright &copy; &middot; D &amp; A Holdings Health Solutions LLC &middot; Website Design by <a href="https://springhive.co/" target="_blank" rel="nofollow" class="springhive-link" style="color: #ffffff; text-decoration: underline; text-underline-offset: 3px;">SpringHive</a></p>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 D & A Holdings Health Solutions LLC. All rights reserved. | Website by <a href="https://springhive.com" target="_blank" style="color: var(--clr-emerald);">SpringHive</a></p>
             </div>
         </div>
     </footer>
 
-    <!-- JavaScript -->
-    <script src="js/index2.js"></script>
+    <script>
+        // Simple header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
 </body>
 </html>
-
-
