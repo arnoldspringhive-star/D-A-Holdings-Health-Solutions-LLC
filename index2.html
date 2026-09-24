@@ -17,6 +17,20 @@
 
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/index2.css">
+    
+    <style>
+        /* Custom adjustment for Diagnostic Care image on laptop views */
+        @media screen and (min-width: 1024px) and (max-width: 1440px) {
+            .diag-img-laptop {
+                object-position: 100% center !important;
+                transform: scale(1.15) !important;
+                transform-origin: 80% center !important;
+            }
+            .service-block:hover .diag-img-laptop {
+                transform: scale(1.22) !important;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -311,7 +325,7 @@
                     <div class="service-block reveal">
                         <div class="service-img-wrap">
                             <img src="images/service_mental.jpg" alt="Comprehensive Psychiatric Evaluations"
-                                class="service-img" style="object-position: 70% center;">
+                                class="service-img diag-img-laptop" style="object-position: right center;">
                             <span class="service-tag">01 &bull; Diagnostic Care</span>
                         </div>
                         <div class="service-body">
